@@ -3,63 +3,103 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Likhon Sheikh - Home</title>
-    <meta name="description" content="Welcome to Likhon Sheikh's personal website. Explore my projects, blog posts, and more.">
+    <title>Likhon Sheikh - Blockchain Developer & Crypto Enthusiast</title>
+    <meta name="description" content="Likhon Sheikh is a blockchain developer and crypto enthusiast. Explore his projects, blog posts, and insights into the world of decentralized technology.">
+    <link rel="canonical" href="https://likhonsh3ikh.github.io/">
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
-    <meta property="og:title" content="Likhon Sheikh - Home">
-    <meta property="og:description" content="Welcome to Likhon Sheikh's personal website. Explore my projects, blog posts, and more.">
+    <meta property="og:title" content="Likhon Sheikh - Blockchain Developer & Crypto Enthusiast">
+    <meta property="og:description" content="Explore Likhon Sheikh's projects, blog posts, and insights into the world of decentralized technology.">
     <meta property="og:image" content="https://likhonsh3ikh.github.io/assets/og-image.jpg">
     <meta property="og:url" content="https://likhonsh3ikh.github.io">
     <meta name="twitter:card" content="summary_large_image">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Likhon Sheikh",
+      "url": "https://likhonsh3ikh.github.io",
+      "sameAs": [
+        "https://t.me/likhonsh3ikh",
+        "https://www.linkedin.com/in/likhon-sheikh"
+      ],
+      "jobTitle": "Blockchain Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      }
+    }
+    </script>
 </head>
 <body class="bg-gray-900 text-white">
-    <header class="bg-gray-800 shadow-md">
+    <header class="bg-gray-800 shadow-md fixed w-full z-10">
         <nav class="container mx-auto px-6 py-3">
-            <ul class="flex justify-between items-center">
-                <li><a href="/" class="text-xl font-bold">Likhon Sheikh</a></li>
-                <li>
-                    <ul class="flex space-x-4">
-                        <li><a href="/" class="hover:text-blue-400">Home</a></li>
-                        <li><a href="/about" class="hover:text-blue-400">About</a></li>
-                        <li><a href="/projects" class="hover:text-blue-400">Projects</a></li>
-                        <li><a href="/contact" class="hover:text-blue-400">Contact</a></li>
-                        <li><a href="/donations" class="hover:text-blue-400">Donations</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <div class="flex justify-between items-center">
+                <a href="/" class="text-2xl font-bold text-blue-400">Likhon Sheikh</a>
+                <button id="menu-toggle" class="md:hidden text-white focus:outline-none">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <ul id="menu" class="hidden md:flex space-x-4">
+                    <li><a href="/" class="hover:text-blue-400 transition duration-300">Home</a></li>
+                    <li><a href="/about" class="hover:text-blue-400 transition duration-300">About</a></li>
+                    <li><a href="/projects" class="hover:text-blue-400 transition duration-300">Projects</a></li>
+                    <li><a href="/blog" class="hover:text-blue-400 transition duration-300">Blog</a></li>
+                    <li><a href="/contact" class="hover:text-blue-400 transition duration-300">Contact</a></li>
+                    <li><a href="/donations" class="hover:text-blue-400 transition duration-300">Donations</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 
-    <main class="container mx-auto px-6 py-8">
-        <h1 class="text-4xl font-bold mb-8">Welcome to My Portfolio</h1>
-        <section id="latest-blogs" class="mb-12">
-            <h2 class="text-2xl font-semibold mb-4">Latest Blog Posts</h2>
+    <main class="container mx-auto px-6 py-20">
+        <section class="mb-16 animate__animated animate__fadeIn">
+            <h1 class="text-5xl font-bold mb-8">Welcome to My dApp World</h1>
+            <p class="text-xl mb-8">I'm Likhon Sheikh, a blockchain developer and crypto enthusiast. Explore my projects, read my insights, and join me in shaping the future of decentralized technology.</p>
+            <a href="/projects" class="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded transition duration-300">Explore Projects</a>
+        </section>
+
+        <section id="latest-blogs" class="mb-16 animate__animated animate__fadeIn animate__delay-1s">
+            <h2 class="text-3xl font-bold mb-8">Latest Insights</h2>
             <div id="blog-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- Blog posts will be dynamically inserted here -->
+            </div>
+            <div class="text-center mt-8">
+                <a href="/blog" class="text-blue-400 hover:text-blue-300 transition duration-300">View All Posts</a>
+            </div>
+        </section>
+
+        <section id="featured-projects" class="animate__animated animate__fadeIn animate__delay-2s">
+            <h2 class="text-3xl font-bold mb-8">Featured Projects</h2>
+            <div id="project-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Projects will be dynamically inserted here -->
+            </div>
+            <div class="text-center mt-8">
+                <a href="/projects" class="text-blue-400 hover:text-blue-300 transition duration-300">View All Projects</a>
             </div>
         </section>
     </main>
 
-    <footer class="bg-gray-800 text-center py-4">
+    <footer class="bg-gray-800 text-center py-8">
         <div class="container mx-auto px-6">
             <p>&copy; 2023 Likhon Sheikh. All rights reserved.</p>
             <div class="mt-4 flex justify-center space-x-4">
-                <a href="https://t.me/likhonsh3ikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">
+                <a href="https://t.me/likhonsh3ikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition duration-300">
                     <i class="fab fa-telegram"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/likhon-sheikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">
+                <a href="https://www.linkedin.com/in/likhon-sheikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300 transition duration-300">
                     <i class="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:likhonsh3ikh@icloud.com" class="text-blue-400 hover:text-blue-300">
+                <a href="mailto:likhonsh3ikh@icloud.com" class="text-blue-400 hover:text-blue-300 transition duration-300">
                     <i class="fas fa-envelope"></i>
                 </a>
             </div>
         </div>
     </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/3.0.7/marked.min.js"></script>
     <script src="/assets/js/script.js"></script>
 </body>
 </html>
