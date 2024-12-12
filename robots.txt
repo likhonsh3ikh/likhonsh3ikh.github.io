@@ -1,5 +1,5 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://likhonsh3ikh.github.io/sitemap.xml
+Sitemap: https://likhonsh3ikh.github.io/sitemaps.xml
 
