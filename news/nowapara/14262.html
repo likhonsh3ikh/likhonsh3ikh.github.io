@@ -24,44 +24,44 @@
     <link rel="manifest" href="/manifest.json">
     <meta name="theme-color" content="#3B82F6">
 </head>
-<body class="bg-gray-900 text-white font-sans">
+<body class="bg-gray-100 text-gray-800 font-serif">
 
     <!-- Header -->
-    <header class="bg-gray-800 py-4 fixed w-full z-10 shadow-md transition-all duration-300 ease-in-out">
-        <nav class="container mx-auto px-4 flex justify-between items-center">
-            <a href="/" class="text-2xl font-bold text-blue-400 hover:text-blue-300 transition-colors duration-300">নওয়াপাড়া নিউজ</a>
-            <button class="md:hidden text-white focus:outline-none" id="menu-toggle">
+    <header class="bg-white py-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <a href="/" class="text-3xl font-bold text-blue-600">নওয়াপাড়া নিউজ</a>
+            <nav class="space-x-6 hidden md:flex">
+                <a href="/" class="text-lg hover:text-blue-600">হোম</a>
+                <a href="/about/" class="text-lg hover:text-blue-600">আমাদের সম্পর্কে</a>
+                <a href="/contact/" class="text-lg hover:text-blue-600">যোগাযোগ</a>
+            </nav>
+            <button class="md:hidden text-xl" id="menu-toggle">
                 <i class="fas fa-bars"></i>
             </button>
-            <ul class="hidden md:flex space-x-6" id="menu">
-                <li><a href="/" class="hover:text-blue-400 transition-colors duration-300">হোম</a></li>
-                <li><a href="/about/" class="hover:text-blue-400 transition-colors duration-300">আমাদের সম্পর্কে</a></li>
-                <li><a href="/contact/" class="hover:text-blue-400 transition-colors duration-300">যোগাযোগ</a></li>
-            </ul>
-        </nav>
+        </div>
     </header>
 
     <!-- Main Content -->
-    <main class="container mx-auto mt-24 px-4">
-        <section class="mb-16 text-center">
-            <h1 class="text-4xl font-bold mb-4">অভয়নরে ট্রাক চাপায় মোটরসাইকেল চালকসহ নিহত ২</h1>
-            <p class="text-lg mb-8">যশোরের অভয়নরে নওয়াপাড়া শংকরপাশা নড়াইল সড়কে ট্রাক চাপায় মোটরসাইকেল চালকসহ ২জন নিহত হয়েছে। উত্তেজিত জনতা ট্রকটি আগুন ধরিয়ে দেয়।</p>
-            <p class="text-md text-gray-400 mb-4">ঘটনাটি ঘটেছে বুধবার (১১ ডিসেম্বর) রাত সাড়ে ৮টায়।</p>
+    <main class="container mx-auto mt-16 px-4">
+        <section class="text-center mb-8">
+            <h1 class="text-4xl font-bold text-gray-900 mb-4">অভয়নরে ট্রাক চাপায় মোটরসাইকেল চালকসহ নিহত ২</h1>
+            <p class="text-lg mb-6">যশোরের অভয়নরে নওয়াপাড়া শংকরপাশা নড়াইল সড়কে ট্রাক চাপায় মোটরসাইকেল চালকসহ ২জন নিহত হয়েছে। উত্তেজিত জনতা ট্রকটি আগুন ধরিয়ে দেয়।</p>
+            <p class="text-md text-gray-500 mb-4">ঘটনাটি ঘটেছে বুধবার (১১ ডিসেম্বর) রাত সাড়ে ৮টায়।</p>
         </section>
 
         <!-- News Details -->
-        <section id="news-details" class="mb-16">
-            <p class="text-lg mb-8">প্রত্যক্ষদর্শী সূত্রে জানা গেছে, উপজেলা শংকরপাশা গ্রামের ইব্রাহিম বিশ্বাসের পুত্র মোটর সাইকেল চালক ইসমাইল হোসেন (৪০) ও আরোহী দাউদ মল্লিকের ছেলে মহাসিন (৩৫) তাদের ব্যবসা প্রতিষ্ঠান বন্ধ করে পুড়াখালী থেকে মোটর সাইকেল যোগে বাড়ী শংকরপাশা আসছিলেন। ফজলুর ওয়েব্রিজ নামক স্থানে পৌছালে বিপরীত দিক থেকে আসা একটি ট্রাক তাদের চাপা দেয়। এতে তাদের ঘটনাস্থলে মৃত্যু হয়। উত্তেজিত জনতা ও স্থানীয়রা ট্রাকটি আটক করে আগুন ধরিয়ে দেয়। খবর পেয়ে ফায়ার সার্ভিস ঘটনাস্থলে এসে আগুন নিয়ন্ত্রণে আনে। আরএফএল কোম্পানির ট্রাকটি শিংহভাগ পুড়ে যায়।</p>
-            <p class="text-md text-gray-400">নওয়াপাড়া হাইওয়ে থানার ওসি মাহাবুর রহমান ঘটনাটি নিশ্চিত করেছেন।</p>
+        <section class="mb-12">
+            <p class="text-lg mb-6">প্রত্যক্ষদর্শী সূত্রে জানা গেছে, উপজেলা শংকরপাশা গ্রামের ইব্রাহিম বিশ্বাসের পুত্র মোটর সাইকেল চালক ইসমাইল হোসেন (৪০) ও আরোহী দাউদ মল্লিকের ছেলে মহাসিন (৩৫) তাদের ব্যবসা প্রতিষ্ঠান বন্ধ করে পুড়াখালী থেকে মোটর সাইকেল যোগে বাড়ী শংকরপাশা আসছিলেন। ফজলুর ওয়েব্রিজ নামক স্থানে পৌছালে বিপরীত দিক থেকে আসা একটি ট্রাক তাদের চাপা দেয়। এতে তাদের ঘটনাস্থলে মৃত্যু হয়। উত্তেজিত জনতা ও স্থানীয়রা ট্রাকটি আটক করে আগুন ধরিয়ে দেয়। খবর পেয়ে ফায়ার সার্ভিস ঘটনাস্থলে এসে আগুন নিয়ন্ত্রণে আনে। আরএফএল কোম্পানির ট্রাকটি শিংহভাগ পুড়ে যায়।</p>
+            <p class="text-md text-gray-500">নওয়াপাড়া হাইওয়ে থানার ওসি মাহাবুর রহমান ঘটনাটি নিশ্চিত করেছেন।</p>
         </section>
 
         <!-- Featured Image -->
-        <section id="featured-image" class="mb-16">
+        <section class="mb-12">
             <img src="https://noaparanews.com/wp-content/uploads/2024/12/28a94cbc47.jpg" alt="News Image" class="w-full h-auto rounded-lg shadow-lg">
         </section>
 
         <!-- Social Sharing -->
-        <section id="social-share" class="text-center mb-16">
+        <section class="text-center mb-12">
             <h3 class="text-2xl font-bold mb-4">Share this News</h3>
             <div class="flex justify-center space-x-6">
                 <a href="https://www.facebook.com/sharer/sharer.php?u=https://noaparanews.com/news/" target="_blank" class="text-blue-600 hover:text-blue-500 transition-colors duration-300">
@@ -78,9 +78,10 @@
     </main>
 
     <!-- Footer -->
-    <footer class="bg-gray-800 py-8 mt-16">
-        <div class="container mx-auto px-4 text-center text-gray-400">
-            <p>&copy; 2024 নওয়াপাড়া নিউজ. সকল অধিকার সংরক্ষিত।</p>
+    <footer class="bg-gray-800 text-gray-100 py-6">
+        <div class="container mx-auto text-center">
+            <p class="text-sm">&copy; 2024 <strong>Likhon Sheikh & NK</strong>. All rights reserved.</p>
+            <p class="text-xs">Content may not be reproduced without giving proper credit. Copyright owner: <a href="mailto:mail@likhonsheikh.com" class="text-blue-300">mail@likhonsheikh.com</a></p>
         </div>
     </footer>
 
