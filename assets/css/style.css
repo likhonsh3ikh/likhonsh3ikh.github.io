@@ -1,0 +1,75 @@
+/* Custom styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+/* Animations */
+.animate-fade-in {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.animate-slide-up {
+    animation: slideUp 0.5s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { transform: translateY(20px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+/* DApp theme */
+.dapp-card {
+    background: linear-gradient(135deg, #2a3a4a 0%, #1a2a3a 100%);
+    border: 1px solid #3a4a5a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.dapp-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+.dapp-button {
+    background: linear-gradient(90deg, #3B82F6 0%, #2563EB 100%);
+    transition: all 0.3s ease;
+}
+
+.dapp-button:hover {
+    background: linear-gradient(90deg, #2563EB 0%, #1D4ED8 100%);
+}
+
+/* Responsive menu */
+@media (max-width: 768px) {
+    #menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #1F2937;
+        padding: 1rem;
+    }
+
+    #menu.active {
+        display: block;
+    }
+
+    #menu li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Add more custom styles as needed */
+
