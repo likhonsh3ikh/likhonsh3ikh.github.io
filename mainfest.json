@@ -1,0 +1,22 @@
+{
+    "name": "Likhon Sheikh - Blockchain Developer & DApp Enthusiast",
+    "short_name": "Likhon Sheikh",
+    "description": "Explore the world of blockchain and DApps with Likhon Sheikh. Discover innovative projects, insightful blog posts, and cutting-edge solutions.",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#1F2937",
+    "theme_color": "#3B82F6",
+    "icons": [
+        {
+            "src": "/assets/images/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/assets/images/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
+
