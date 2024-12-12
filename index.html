@@ -3,47 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Likhon Sheikh - Blockchain Developer specializing in Smart Contracts, DeFi, Web3, and Blockchain Security.">
-    <meta name="keywords" content="Blockchain Developer, Smart Contracts, DeFi, Web3, Ethereum, Solana, Binance, Blockchain Security">
-    <meta name="author" content="Likhon Sheikh">
-    <meta name="robots" content="index, follow">
-    <meta property="og:title" content="Likhon Sheikh | Blockchain Developer">
-    <meta property="og:description" content="Portfolio of Likhon Sheikh, showcasing expertise in Blockchain Development, DeFi, and Web3.">
-    <meta property="og:image" content="https://sh3ikh.vercel.app/assets/og-image.jpg">
-    <meta property="og:url" content="https://sh3ikh.vercel.app/">
-    <meta property="og:type" content="website">
+    <title>Likhon Sheikh - Home</title>
+    <meta name="description" content="Welcome to Likhon Sheikh's personal website. Explore my projects, blog posts, and more.">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta property="og:title" content="Likhon Sheikh - Home">
+    <meta property="og:description" content="Welcome to Likhon Sheikh's personal website. Explore my projects, blog posts, and more.">
+    <meta property="og:image" content="https://likhonsh3ikh.github.io/assets/og-image.jpg">
+    <meta property="og:url" content="https://likhonsh3ikh.github.io">
     <meta name="twitter:card" content="summary_large_image">
-    <link rel="icon" href="https://sh3ikh.vercel.app/assets/favicon.ico" type="image/x-icon">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Likhon Sheikh | Blockchain Developer</title>
 </head>
-<body class="bg-dark text-light">
-    <!-- Header -->
-    <header class="text-center py-5 bg-secondary">
-        <h1 class="display-4 fw-bold">Likhon Sheikh</h1>
-        <p class="lead">Blockchain Developer | Smart Contracts | DeFi Specialist</p>
-        <nav>
-            <a href="/about/" class="text-light mx-3">About</a>
-            <a href="/donations/" class="text-light mx-3">Donations</a>
-            <a href="/projects/" class="text-light mx-3">Projects</a>
-            <a href="/contact/" class="text-light mx-3">Contact</a>
+<body class="bg-gray-900 text-white">
+    <header class="bg-gray-800 shadow-md">
+        <nav class="container mx-auto px-6 py-3">
+            <ul class="flex justify-between items-center">
+                <li><a href="/" class="text-xl font-bold">Likhon Sheikh</a></li>
+                <li>
+                    <ul class="flex space-x-4">
+                        <li><a href="/" class="hover:text-blue-400">Home</a></li>
+                        <li><a href="/about" class="hover:text-blue-400">About</a></li>
+                        <li><a href="/projects" class="hover:text-blue-400">Projects</a></li>
+                        <li><a href="/contact" class="hover:text-blue-400">Contact</a></li>
+                        <li><a href="/donations" class="hover:text-blue-400">Donations</a></li>
+                    </ul>
+                </li>
+            </ul>
         </nav>
     </header>
 
-    <!-- Main Content -->
-    <section class="container py-5">
-        <h2 class="text-center fw-bold">Welcome</h2>
-        <p class="text-center">
-            Explore my portfolio, projects, and ways to support my blockchain development journey.
-        </p>
-    </section>
+    <main class="container mx-auto px-6 py-8">
+        <h1 class="text-4xl font-bold mb-8">Welcome to My Portfolio</h1>
+        <section id="latest-blogs" class="mb-12">
+            <h2 class="text-2xl font-semibold mb-4">Latest Blog Posts</h2>
+            <div id="blog-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Blog posts will be dynamically inserted here -->
+            </div>
+        </section>
+    </main>
 
-    <!-- Footer -->
-    <footer class="py-3 bg-dark text-center">
-        <p>© 2024 Likhon Sheikh | Crafted with ❤️</p>
+    <footer class="bg-gray-800 text-center py-4">
+        <div class="container mx-auto px-6">
+            <p>&copy; 2023 Likhon Sheikh. All rights reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://t.me/likhonsh3ikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">
+                    <i class="fab fa-telegram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/likhon-sheikh" target="_blank" rel="noopener noreferrer" class="text-blue-400 hover:text-blue-300">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="mailto:likhonsh3ikh@icloud.com" class="text-blue-400 hover:text-blue-300">
+                    <i class="fas fa-envelope"></i>
+                </a>
+            </div>
+        </div>
     </footer>
 
-    <!-- Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
