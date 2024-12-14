@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <rect width="200" height="60" fill="#28a745" />
+  <text x="50%" y="50%" text-anchor="middle" font-size="20" fill="white" dy=".3em">
+    Active Project
+    <animate attributeName="fill" values="#28a745;#218838;#28a745" dur="1.5s" repeatCount="indefinite" />
+  </text>
+</svg>
