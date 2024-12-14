@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100" width="200" height="100">
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff7e5f;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#feb47b;stop-opacity:1" />
+    </linearGradient>
+    <filter id="blurEffect" x="0" y="0" width="150%" height="150%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="5" />
+    </filter>
+  </defs>
+  <text x="50%" y="50%" font-family="Helvetica, Arial, sans-serif" font-size="40" fill="url(#gradient)" text-anchor="middle" alignment-baseline="middle">
+    Likhon
+    <animate attributeName="fill" values="url(#gradient);#ffffff;url(#gradient)" dur="2s" repeatCount="indefinite" />
+  </text>
+  <line x1="30" y1="80" x2="170" y2="80" stroke="#feb47b" stroke-width="3" stroke-linecap="round" />
+  <circle cx="50%" cy="50%" r="40" fill="none" stroke="url(#gradient)" stroke-width="3">
+    <animate attributeName="r" from="40" to="45" dur="1s" repeatCount="indefinite" />
+  </circle>
+</svg>
