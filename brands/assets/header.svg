@@ -11,7 +11,7 @@
   
   <!-- Text Animation -->
   <text x="50%" y="50%" text-anchor="middle" font-size="50" fill="white" dy=".3em">
-    Likhon Sheikh
+    L
     <animate attributeName="font-size" values="50;60;50" dur="1s" repeatCount="indefinite" />
   </text>
 </svg>
